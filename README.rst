@@ -1,11 +1,11 @@
 ApySignature
-=========
+============
 
 Python implementation of the Ruby Signature library
 (https://github.com/mloughran/signature)
 
 Installation
---------
+------------
 ```shell
 pip install apysignature
 ```
