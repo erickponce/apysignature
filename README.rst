@@ -4,12 +4,19 @@ ApySignature
 Python implementation of the Ruby Signature library
 (https://github.com/mloughran/signature)
 
+Installation
+--------
+```shell
+pip install apysignature
+```
+
 Examples
 --------
 
 Client example
 
 ```python
+from apysignature import signature
 params       = {'some'='parameters'}
 token        = signature.Token('my_key', 'my_secret')
 request      = signature.Request('POST', '/api/thing', params)
@@ -34,6 +41,7 @@ requests.post('http://myservice/api/thing', data=query_params)
 Server example (Django)
 
 ```python
+from apysignature import signature
 auth_request = signature.Request(request.method, str(request.path), params)
 public_key = params['auth_key']
 token = signature.Token(public_key, private_key)
