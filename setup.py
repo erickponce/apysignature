@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 from apysignature import __version__
 from setuptools import setup, find_packages
@@ -23,7 +23,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Topic :: Software Development :: Libraries :: API Security',
+        'Topic :: Software Development :: Libraries',
     ],
     author='Erick Ponce Leão',
     author_email='erickponceleao@gmail.com'
