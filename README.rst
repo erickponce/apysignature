@@ -8,7 +8,9 @@ Installation
 ------------
 
 ```bash
+
 pip install apysignature
+
 ```
 
 Examples
