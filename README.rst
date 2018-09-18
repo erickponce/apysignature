@@ -7,9 +7,9 @@ Python implementation of the Ruby Signature library
 Installation
 ------------
 
-`bash
+```
 pip install apysignature
-`
+```
 
 Examples
 --------
